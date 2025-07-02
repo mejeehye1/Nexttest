@@ -2,11 +2,14 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
-import gsap from 'gsap';
+import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollSmoother } from 'gsap/all';
 import ServiceSection from '../components/ServiceSection';
 import WorksPreview from '../components/WorksPreview';
+import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
+
+gsap.registerPlugin(ScrambleTextPlugin);
 
 export default function Home() {
   const stats = [
