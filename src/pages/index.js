@@ -36,7 +36,7 @@ export default function Home() {
   const worksProjects = [
     { id: 3, title: 'Ovitz', category: 'Front-End Development', year: '2024', imgSrc: '/images/ov_thumbnail.JPG' },
     { id: 4, title: 'Editorial', category: 'Social Media Integration', year: '2023', imgSrc: '/images/ifact.webp' },
-    { id: 5, title: 'Pharmaceutical design', category: 'Website Optimization', year: '2022', imgSrc: '/images/up/fe_6.webp' },
+    { id: 5, title: 'Pharmaceutical design', category: 'Website Optimization', year: '2022', imgSrc: '/images/UP/fe_3.webp' },
     { id: 6, title: 'Banner design', category: 'Online Promotion design, Webdesign', year: '2022', imgSrc: '/images/dgms.jpg' },
     { id: 2, title: 'Todo List', category: 'Custom Website Development', year: '2025', imgSrc: '#' },
   ];
