@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;900&display=swap');
+
+html, body, * {
+  font-family: 'Urbanist', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 블로그 상세 페이지 스타일 */
+.dropcap {
+  float: left;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0.1em 0.1em 0 0;
+  color: #B8FF65;
+}
+
+/* 댓글 아바타 스타일 */
+.avatar img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* 댓글 정보 스타일 */
+.comment-info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.c_name {
+  font-weight: bold;
+  color: #000;
+}
+
+.c_date {
+  color: #B8FF65;
+  font-size: 0.875rem;
+}
+
+.c_reply a {
+  color: #3B82F6;
+  text-decoration: none;
+}
+
+.c_reply a:hover {
+  text-decoration: underline;
+}
+
+/* 블로그 본문 스타일 */
+.post-text p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.post-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* 폼 스타일 */
+.comment_form_holder input:focus,
+.comment_form_holder textarea:focus {
+  border-color: #000;
+  outline: none;
+}
+
+/* 반응형 텍스트 크기 */
+@media (max-width: 768px) {
+  .dropcap {
+    font-size: 3rem;
+  }
+}
+
+/* Contact form 스타일 (Designesia 참고) */
+.form-control {
+  @apply w-full border border-gray-300 rounded-lg px-4 py-3 text-base text-black transition duration-200 shadow-none focus:outline-none focus:border-black focus:ring-2 focus:ring-black;
+  background-color: #F2F2F2;
+}
+.no-border {
+  border-width: 1px !important;
+  border-color: #e5e7eb !important; /* Tailwind gray-300 */
+  box-shadow: none !important;
+}
+
+/* 라벨 스타일 */
+.d-label {
+  @apply block mb-2 font-bold text-gray-700;
+}
+
+.form-control[type="text"],
+.form-control[type="email"],
+.form-control[type="tel"] {
+  width: 100%;
+  height: 44px;
+  min-width: 0;
+  min-height: 0;
+}
+.form-control[type="textarea"],
+.form-control textarea {
+  width: 100%;
+  height: 292px;
+  min-width: 0;
+  min-height: 0;
+  max-width: 100%;
+} 
