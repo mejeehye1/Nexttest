@@ -55,8 +55,6 @@ export default function Hire() {
       <Navbar />
       <Head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-        <script src="https://assets.codepen.io/16327/SplitText3.min.js"></script>
-        <script src="https://assets.codepen.io/16327/ScrambleTextPlugin3.min.js"></script>
       </Head>
       <div className="bg-[#F9F4EB] text-black">
         {/* 상단 섹션 - Works 페이지와 동일한 스타일 */}

@@ -90,8 +90,6 @@ export default function Works() {
       <Navbar />
       <Head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-        <script src="https://assets.codepen.io/16327/SplitText3.min.js"></script>
-        <script src="https://assets.codepen.io/16327/ScrambleTextPlugin3.min.js"></script>
       </Head>
       <div className="bg-[#f4f3ed] text-black">
         {/* Hero Section */}
